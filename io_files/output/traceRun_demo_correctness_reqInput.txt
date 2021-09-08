@@ -1,0 +1,127 @@
+
+	CORRECTNESS RUN FOR DTM TYPE: DEMO
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 13 total operations
+
+1	The original tape from the DEMO DTM: 1 0 1 0 1  
+
+The DTM resulted in a final state of REJECTED with result: 111
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: [_]10101
+	state: 1	tape: _[1]0101
+	state: 1	tape: _1[0]101
+	state: 1	tape: _10[1]01
+	state: 1	tape: _101[0]1
+	state: 1	tape: _1010[1]
+	state: 1	tape: _10101[_]
+	state: 2	tape: _1010[1]_
+	state: 2	tape: _101[0]1_
+	state: 3	tape: _10[1]_1_
+	state: 2	tape: _1[0]1_1_
+	state: 3	tape: _[1]_1_1_
+	state: 2	tape: [_]1_1_1_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 13 total operations
+
+2	The original tape from the DEMO DTM: 1 0 1 1 0  
+
+The DTM resulted in a final state of REJECTED with result: 111
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: [_]10110
+	state: 1	tape: _[1]0110
+	state: 1	tape: _1[0]110
+	state: 1	tape: _10[1]10
+	state: 1	tape: _101[1]0
+	state: 1	tape: _1011[0]
+	state: 1	tape: _10110[_]
+	state: 2	tape: _1011[0]_
+	state: 3	tape: _101[1]__
+	state: 2	tape: _10[1]1__
+	state: 2	tape: _1[0]11__
+	state: 3	tape: _[1]_11__
+	state: 2	tape: [_]1_11__
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 19 total operations
+
+3	The original tape from the DEMO DTM: 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0  
+
+The DTM resulted in a final state of ACCEPTED with result: 10101010101010
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: [_]101010101010100
+	state: 1	tape: _[1]01010101010100
+	state: 1	tape: _1[0]1010101010100
+	state: 1	tape: _10[1]010101010100
+	state: 1	tape: _101[0]10101010100
+	state: 1	tape: _1010[1]0101010100
+	state: 1	tape: _10101[0]101010100
+	state: 1	tape: _101010[1]01010100
+	state: 1	tape: _1010101[0]1010100
+	state: 1	tape: _10101010[1]010100
+	state: 1	tape: _101010101[0]10100
+	state: 1	tape: _1010101010[1]0100
+	state: 1	tape: _10101010101[0]100
+	state: 1	tape: _101010101010[1]00
+	state: 1	tape: _1010101010101[0]0
+	state: 1	tape: _10101010101010[0]
+	state: 1	tape: _101010101010100[_]
+	state: 2	tape: _10101010101010[0]_
+	state: 3	tape: _1010101010101[0]__
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 19 total operations
+
+4	The original tape from the DEMO DTM: 1 0 0 1 1 0 1 1 0 0 0 1 1  
+
+The DTM resulted in a final state of ACCEPTED with result: 100110110011
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: [_]1001101100011
+	state: 1	tape: _[1]001101100011
+	state: 1	tape: _1[0]01101100011
+	state: 1	tape: _10[0]1101100011
+	state: 1	tape: _100[1]101100011
+	state: 1	tape: _1001[1]01100011
+	state: 1	tape: _10011[0]1100011
+	state: 1	tape: _100110[1]100011
+	state: 1	tape: _1001101[1]00011
+	state: 1	tape: _10011011[0]0011
+	state: 1	tape: _100110110[0]011
+	state: 1	tape: _1001101100[0]11
+	state: 1	tape: _10011011000[1]1
+	state: 1	tape: _100110110001[1]
+	state: 1	tape: _1001101100011[_]
+	state: 2	tape: _100110110001[1]_
+	state: 2	tape: _10011011000[1]1_
+	state: 2	tape: _1001101100[0]11_
+	state: 3	tape: _100110110[0]_11_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 9 total operations
+
+5	The original tape from the DEMO DTM: 1 0 1 0 0  
+
+The DTM resulted in a final state of ACCEPTED with result: 1010
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: [_]10100
+	state: 1	tape: _[1]0100
+	state: 1	tape: _1[0]100
+	state: 1	tape: _10[1]00
+	state: 1	tape: _101[0]0
+	state: 1	tape: _1010[0]
+	state: 1	tape: _10100[_]
+	state: 2	tape: _1010[0]_
+	state: 3	tape: _101[0]__
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

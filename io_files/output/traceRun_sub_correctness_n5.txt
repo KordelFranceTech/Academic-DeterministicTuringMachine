@@ -1,0 +1,244 @@
+
+	CORRECTNESS RUN FOR DTM TYPE: SUB
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 7 total operations
+
+1	The original tape from the SUB DTM: 0 1 - 0 0 
+
+The DTM resulted in a final state of ACCEPTED with result: 01
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: 01[-]00
+	state: 1	tape: 01-[0]0
+	state: 1	tape: 01-0[0]
+	state: 1	tape: 01-00[_]
+	state: 2	tape: 01-0[0]_
+	state: 2	tape: 01-[0]0_
+	state: 2	tape: 01[-]00_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 41 total operations
+
+2	The original tape from the SUB DTM: 1 1 0 - 0 1 0 
+
+The DTM resulted in a final state of ACCEPTED with result: 1000
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: 110[-]010
+	state: 1	tape: 110-[0]10
+	state: 1	tape: 110-0[1]0
+	state: 1	tape: 110-01[0]
+	state: 1	tape: 110-010[_]
+	state: 2	tape: 110-01[0]_
+	state: 2	tape: 110-0[1]0_
+	state: 3	tape: 110-00[0]_
+	state: 3	tape: 110-001[_]
+	state: 4	tape: 110-00[1]_
+	state: 4	tape: 110-0[0]1_
+	state: 4	tape: 110-[0]01_
+	state: 4	tape: 110[-]001_
+	state: 5	tape: 11[0]-001_
+	state: 6	tape: 1[1]1-001_
+	state: 6	tape: [1]01-001_
+	state: 6	tape: [_]001-001_
+	state: 7	tape: 1[0]01-001_
+	state: 7	tape: 10[0]1-001_
+	state: 7	tape: 100[1]-001_
+	state: 7	tape: 1001[-]001_
+	state: 1	tape: 1001-[0]01_
+	state: 1	tape: 1001-0[0]1_
+	state: 1	tape: 1001-00[1]_
+	state: 1	tape: 1001-001[_]
+	state: 2	tape: 1001-00[1]_
+	state: 3	tape: 1001-000[_]
+	state: 4	tape: 1001-00[0]_
+	state: 4	tape: 1001-0[0]0_
+	state: 4	tape: 1001-[0]00_
+	state: 4	tape: 1001[-]000_
+	state: 5	tape: 100[1]-000_
+	state: 7	tape: 1000[-]000_
+	state: 1	tape: 1000-[0]00_
+	state: 1	tape: 1000-0[0]0_
+	state: 1	tape: 1000-00[0]_
+	state: 1	tape: 1000-000[_]
+	state: 2	tape: 1000-00[0]_
+	state: 2	tape: 1000-0[0]0_
+	state: 2	tape: 1000-[0]00_
+	state: 2	tape: 1000[-]000_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 101 total operations
+
+3	The original tape from the SUB DTM: 0 1 0 - 1 1 0 
+
+The DTM resulted in a final state of ACCEPTED with result: 1000
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: 010[-]110
+	state: 1	tape: 010-[1]10
+	state: 1	tape: 010-1[1]0
+	state: 1	tape: 010-11[0]
+	state: 1	tape: 010-110[_]
+	state: 2	tape: 010-11[0]_
+	state: 2	tape: 010-1[1]0_
+	state: 3	tape: 010-10[0]_
+	state: 3	tape: 010-101[_]
+	state: 4	tape: 010-10[1]_
+	state: 4	tape: 010-1[0]1_
+	state: 4	tape: 010-[1]01_
+	state: 4	tape: 010[-]101_
+	state: 5	tape: 01[0]-101_
+	state: 6	tape: 0[1]1-101_
+	state: 6	tape: [0]01-101_
+	state: 7	tape: 1[0]1-101_
+	state: 7	tape: 10[1]-101_
+	state: 7	tape: 101[-]101_
+	state: 1	tape: 101-[1]01_
+	state: 1	tape: 101-1[0]1_
+	state: 1	tape: 101-10[1]_
+	state: 1	tape: 101-101[_]
+	state: 2	tape: 101-10[1]_
+	state: 3	tape: 101-100[_]
+	state: 4	tape: 101-10[0]_
+	state: 4	tape: 101-1[0]0_
+	state: 4	tape: 101-[1]00_
+	state: 4	tape: 101[-]100_
+	state: 5	tape: 10[1]-100_
+	state: 7	tape: 100[-]100_
+	state: 1	tape: 100-[1]00_
+	state: 1	tape: 100-1[0]0_
+	state: 1	tape: 100-10[0]_
+	state: 1	tape: 100-100[_]
+	state: 2	tape: 100-10[0]_
+	state: 2	tape: 100-1[0]0_
+	state: 2	tape: 100-[1]00_
+	state: 3	tape: 100-0[0]0_
+	state: 3	tape: 100-01[0]_
+	state: 3	tape: 100-011[_]
+	state: 4	tape: 100-01[1]_
+	state: 4	tape: 100-0[1]1_
+	state: 4	tape: 100-[0]11_
+	state: 4	tape: 100[-]011_
+	state: 5	tape: 10[0]-011_
+	state: 6	tape: 1[0]1-011_
+	state: 7	tape: 11[1]-011_
+	state: 7	tape: 111[-]011_
+	state: 1	tape: 111-[0]11_
+	state: 1	tape: 111-0[1]1_
+	state: 1	tape: 111-01[1]_
+	state: 1	tape: 111-011[_]
+	state: 2	tape: 111-01[1]_
+	state: 3	tape: 111-010[_]
+	state: 4	tape: 111-01[0]_
+	state: 4	tape: 111-0[1]0_
+	state: 4	tape: 111-[0]10_
+	state: 4	tape: 111[-]010_
+	state: 5	tape: 11[1]-010_
+	state: 7	tape: 110[-]010_
+	state: 1	tape: 110-[0]10_
+	state: 1	tape: 110-0[1]0_
+	state: 1	tape: 110-01[0]_
+	state: 1	tape: 110-010[_]
+	state: 2	tape: 110-01[0]_
+	state: 2	tape: 110-0[1]0_
+	state: 3	tape: 110-00[0]_
+	state: 3	tape: 110-001[_]
+	state: 4	tape: 110-00[1]_
+	state: 4	tape: 110-0[0]1_
+	state: 4	tape: 110-[0]01_
+	state: 4	tape: 110[-]001_
+	state: 5	tape: 11[0]-001_
+	state: 6	tape: 1[1]1-001_
+	state: 6	tape: [1]01-001_
+	state: 6	tape: [_]001-001_
+	state: 7	tape: 1[0]01-001_
+	state: 7	tape: 10[0]1-001_
+	state: 7	tape: 100[1]-001_
+	state: 7	tape: 1001[-]001_
+	state: 1	tape: 1001-[0]01_
+	state: 1	tape: 1001-0[0]1_
+	state: 1	tape: 1001-00[1]_
+	state: 1	tape: 1001-001[_]
+	state: 2	tape: 1001-00[1]_
+	state: 3	tape: 1001-000[_]
+	state: 4	tape: 1001-00[0]_
+	state: 4	tape: 1001-0[0]0_
+	state: 4	tape: 1001-[0]00_
+	state: 4	tape: 1001[-]000_
+	state: 5	tape: 100[1]-000_
+	state: 7	tape: 1000[-]000_
+	state: 1	tape: 1000-[0]00_
+	state: 1	tape: 1000-0[0]0_
+	state: 1	tape: 1000-00[0]_
+	state: 1	tape: 1000-000[_]
+	state: 2	tape: 1000-00[0]_
+	state: 2	tape: 1000-0[0]0_
+	state: 2	tape: 1000-[0]00_
+	state: 2	tape: 1000[-]000_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+	Analyzed cost: 51 total operations
+
+4	The original tape from the SUB DTM: 1 0 0 1 0 1 1 - 0 1 1 
+
+The DTM resulted in a final state of ACCEPTED with result: 1001100
+
+The tape generated from the DTM ([ ] represents head position):
+ 	state: 0	tape: 1001011[-]011
+	state: 1	tape: 1001011-[0]11
+	state: 1	tape: 1001011-0[1]1
+	state: 1	tape: 1001011-01[1]
+	state: 1	tape: 1001011-011[_]
+	state: 2	tape: 1001011-01[1]_
+	state: 3	tape: 1001011-010[_]
+	state: 4	tape: 1001011-01[0]_
+	state: 4	tape: 1001011-0[1]0_
+	state: 4	tape: 1001011-[0]10_
+	state: 4	tape: 1001011[-]010_
+	state: 5	tape: 100101[1]-010_
+	state: 7	tape: 1001010[-]010_
+	state: 1	tape: 1001010-[0]10_
+	state: 1	tape: 1001010-0[1]0_
+	state: 1	tape: 1001010-01[0]_
+	state: 1	tape: 1001010-010[_]
+	state: 2	tape: 1001010-01[0]_
+	state: 2	tape: 1001010-0[1]0_
+	state: 3	tape: 1001010-00[0]_
+	state: 3	tape: 1001010-001[_]
+	state: 4	tape: 1001010-00[1]_
+	state: 4	tape: 1001010-0[0]1_
+	state: 4	tape: 1001010-[0]01_
+	state: 4	tape: 1001010[-]001_
+	state: 5	tape: 100101[0]-001_
+	state: 6	tape: 10010[1]1-001_
+	state: 6	tape: 1001[0]01-001_
+	state: 7	tape: 10011[0]1-001_
+	state: 7	tape: 100110[1]-001_
+	state: 7	tape: 1001101[-]001_
+	state: 1	tape: 1001101-[0]01_
+	state: 1	tape: 1001101-0[0]1_
+	state: 1	tape: 1001101-00[1]_
+	state: 1	tape: 1001101-001[_]
+	state: 2	tape: 1001101-00[1]_
+	state: 3	tape: 1001101-000[_]
+	state: 4	tape: 1001101-00[0]_
+	state: 4	tape: 1001101-0[0]0_
+	state: 4	tape: 1001101-[0]00_
+	state: 4	tape: 1001101[-]000_
+	state: 5	tape: 100110[1]-000_
+	state: 7	tape: 1001100[-]000_
+	state: 1	tape: 1001100-[0]00_
+	state: 1	tape: 1001100-0[0]0_
+	state: 1	tape: 1001100-00[0]_
+	state: 1	tape: 1001100-000[_]
+	state: 2	tape: 1001100-00[0]_
+	state: 2	tape: 1001100-0[0]0_
+	state: 2	tape: 1001100-[0]00_
+	state: 2	tape: 1001100[-]000_
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
